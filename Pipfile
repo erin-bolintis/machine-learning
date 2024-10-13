@@ -1,0 +1,33 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+jupyter = "*"
+pandas = "*"
+numpy = "*"
+scikit-learn = "*"
+matplotlib = "*"
+seaborn = "*"
+nltk = "*"
+pymongo = "*"
+requests = "*"
+beautifulsoup4 = "*"
+playwright = "*"
+keras = "*"
+tensorflow = "*"
+wordcloud = "*"
+vadersentiment = "*"
+textblob = "*"
+imbalanced-learn = "*"
+text2emotion = "*"
+tf-keras = "*"
+torch = "*"
+transformers = {extras = ["torch"], version = "*"}
+pillow = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
